@@ -1,0 +1,1 @@
+[{"typeCode":2,"severity":1,"localizedMessageText":"Leading wild card on like/notlike conditions can lead to slow performance. Attribute msfp_name","defaultMessage":false,"__typename":"ValidateFetchXmlResponse"}]

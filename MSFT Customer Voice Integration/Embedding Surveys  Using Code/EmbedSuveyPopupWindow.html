@@ -1,0 +1,67 @@
+<script
+  src="https://mfpembedcdnweu.azureedge.net/mfpembedcontweu/Embed.js"
+  type="text/javascript"
+></script>
+<link
+  rel="stylesheet"
+  type="text/css"
+  href="https://mfpembedcdnweu.azureedge.net/mfpembedcontweu/Embed.css"
+/>
+<script type="text/javascript">
+  function renderSurvey(
+    FirstName,
+    LastName,
+    locale,
+    CompanyName,
+    CustomerCountry,
+    AMFullName,
+    AMEmail,
+    AMGUID,
+    GAMFullName,
+    GAMEmail,
+    GAMGUID
+  ) {
+    const se = new SurveyEmbed(
+      "tErLFLhiokWpROIlOD7h-c_tF5zjQ_9IpAEcai0KCf1UOTY1NjEyR1ZCMU5VRlBDU1lLMkdES0VCVS4u",
+      "https://customervoice.microsoft.com/",
+      "https://mfpembedcdnweu.azureedge.net/mfpembedcontweu/",
+      "true"
+    );
+    const context = {
+      "First Name": FirstName,
+      "Last Name": LastName,
+      locale: locale,
+      CompanyName: CompanyName,
+      CustomerCountry: CustomerCountry,
+      AMFullName: AMFullName,
+      AMEmail: AMEmail,
+      AMGUID: AMGUID,
+      GAMFullName: GAMFullName,
+      GAMEmail: GAMEmail,
+      GAMGUID: GAMGUID
+    };
+    se.renderPopup(context);
+  }
+</script>
+<div id="surveyDiv">
+  <script>
+    window.addEventListener(
+      "load",
+      function () {
+        renderSurvey("surveyDiv");
+      },
+      false
+    );
+  </script>
+</div>
+<div id="surveyDiv">
+  <script>
+    window.addEventListener(
+      "load",
+      function () {
+        renderSurvey("surveyDiv");
+      },
+      false
+    );
+  </script>
+</div>

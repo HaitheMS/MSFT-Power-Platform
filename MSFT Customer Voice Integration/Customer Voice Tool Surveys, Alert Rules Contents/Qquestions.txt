@@ -1,0 +1,39 @@
+Survey
+
+English Out of scope but implemente
+
+French
+
+Recommanderiez-vous Inetum à vos partenaires ? [Net Promoter Score (NPS) (0 à 10 + un champ libre remarques)]
+Dans quelle mesure percevez-vous Inetum comme un partenaire capable de vous accompagner dans l’ère post transformation digitale ? (1 à 5)
+À quel niveau évaluez-vous la facilité de travailler avec Inetum ? [Customer Effort Score (CES) (1 à 5 + 1 champ libre remarques) ]
+
+Avons-nous bien identifié vos besoins ? (1 à 5)
+Dans quelle mesure nos offres répondent-elles à vos enjeux ? (1 à 5)
+Comment évaluez-vous notre présence commerciale tout au long du projet ? (1 à 5)
+
+Nos équipes ont-elles été proactives, force de proposition ?  (1 à 5)
+Nos consultants sont-ils restés à votre écoute ? (1 à 5)
+Nos services sont-ils à la hauteur de vos attentes ? (1 à 5 + un champ libre remarques facultatif)
+
+-Portuguese
+
+Recomendaria o {{CompanyName}} aos seus parceiros? [Pontuação do Promotor (NPS) (0 a 10 + uma observação de campo livre)]
+Até que ponto vê o {{CompanyName}} como um parceiro capaz de o acompanhar na era da transformação pós-digital? (1 a 5)
+Como classificaria a facilidade de trabalhar com o {{CompanyName}}? [pontuação do esforço do cliente (CES) (1 a 5 + 1 observações de campo livre) ]
+
+Até que ponto identificámos bem as suas necessidades (1 a 5)
+Como é que as nossas ofertas respondem aos seus desafios (1 a 5)
+Como classificaria a nossa presença comercial ao longo de todo o projecto? (1 a 5)
+
+As nossas equipas foram proactivas, fizeram propostas? (1 a 5)
+Os nossos consultores ouviram-no? (1 a 5)
+Os nossos serviços corresponderam às suas expectativas? (1 a 5 + um comentário opcional de campo livre)
+
+Question supplémentaire en cas de réponses négatives
+
+Au regard de votre note, nous aimerions vous demander. Que s'est il mal passé?
+Tendo em conta a sua nota, gostaríamos de lhe perguntar. O que correu mal?
+In view of your note, we would like to ask you. What went wrong?
+
+{{CompanyName}}

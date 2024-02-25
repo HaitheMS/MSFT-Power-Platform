@@ -1,0 +1,11 @@
+<fetch top="50">
+      <entity name="opportunity">
+            <attribute name="gfitn_account" />
+            <attribute name="gfi_opportunityid" />
+            <attribute name="name" />
+            <attribute name="opportunityid" />
+            <filter>
+                  <condition attribute="emailaddress" operator="eq" value="c76d4b84-1d74-ed11-81ab-0022489980c1" />
+            </filter>
+      </entity>
+</fetch>

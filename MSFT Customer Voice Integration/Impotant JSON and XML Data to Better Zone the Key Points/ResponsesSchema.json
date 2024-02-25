@@ -1,0 +1,33 @@
+{
+  "responder": "htester@benayoub.com",
+  "submitDate": "12/1/2022 4:22:45 PM",
+	// "Identifier" : "ResponseResult"
+	// Would you recommend {{CompanyName}} to your partners ?
+  "ra7841401b7ef440aab5461ff655523ef": "9",
+	// How would you rate our commercial presence throughout the project ?
+  "rd380a4e0c1c2401aa01333b882e8d8b2": "1",
+	// Have our consultants been listening to you?
+  "r9abc32671a0e4b5790b734bd001ff795": "4",
+	// Section
+  "rf7954ef71b114ae89d1362b689c79396": "",
+	// Section
+  "raa9773c5f9eb4e798ecbbc15c4b2981a": "",
+	// You can add here your comments on the collaboration
+  "r89fc8988472b4d3ca0de5f1979fbd9ab": "Hello",
+	// To what extent do you perceive {{CompanyName}} as a partner capable of accompanying you in the post-digital transformation era? 
+  "r5ae70e92330240ec8b185edc09a96dc5": "5",
+	// How would you rate the ease of working with {{CompanyName}}?
+  "r5e5ea1f41eae4bb3b6c9ac3d6ee06195": "4",
+	// How well have we identified your needs? 
+  "r3d5b9079a388420da49788ebcc00aa2b": "3",
+	// How well do our offerings meet your challenges? 
+  "r62cdfee5bef94eebb4296e8e0bf93835": "2",
+	// Section
+  "r703a8267e1614863ab1633f71b8700b6": "",
+	// Were our teams proactive, did they make proposals?
+  "r8ffeda636c1c4303835e0202f335a3b3": "5",
+	// Are our services up to your expectations? 
+  "r5c4ec13b992d4ec493092430e4a6693e": "3",
+	// You can add here your sentiment on our service
+  "r14ec0af1f83f4fe68114076dd48deb2a": "Hi"
+}

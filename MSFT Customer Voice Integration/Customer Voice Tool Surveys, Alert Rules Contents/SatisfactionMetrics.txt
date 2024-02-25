@@ -1,0 +1,54 @@
+"Execution Start: 2022-12-01 16:18:28"
+{
+  "@odata.context": "https://devinetumv3.crm4.dynamics.com/api/data/v9.2/$metadata#msfp_satisfactionmetrics(msfp_name)",
+  "@Microsoft.Dynamics.CRM.totalrecordcount": -1,
+  "@Microsoft.Dynamics.CRM.totalrecordcountlimitexceeded": false,
+  "@Microsoft.Dynamics.CRM.globalmetadataversion": "286005284",
+  "value": [
+    {
+      "@odata.etag": "W/\"286005035\"",
+      "msfp_name": "Business Relations CES  Commercial Presence",
+      "msfp_satisfactionmetricid": "ec4dc803-6dcd-4d67-8ce5-0e251e3aee70"
+    },
+    {
+      "@odata.etag": "W/\"286005026\"",
+      "msfp_name": "Business Relations CES  Needs Identification",
+      "msfp_satisfactionmetricid": "ce6d2631-d299-45fd-a2a5-2050caeb2732"
+    },
+    {
+      "@odata.etag": "W/\"286005068\"",
+      "msfp_name": " Services CES proposals",
+      "msfp_satisfactionmetricid": "fd978f73-0f80-48c3-aef2-344f4add9aac"
+    },
+    {
+      "@odata.etag": "W/\"286004314\"",
+      "msfp_name": "Customer perception CES Partner Capabilities",
+      "msfp_satisfactionmetricid": "1a5b65ed-84ef-4fa3-afe7-4d308e1dd5af"
+    },
+    {
+      "@odata.etag": "W/\"286005032\"",
+      "msfp_name": "Business Relations CES Offerings",
+      "msfp_satisfactionmetricid": "0d89b74e-9082-419c-861b-87d91c3c304f"
+    },
+    {
+      "@odata.etag": "W/\"286005182\"",
+      "msfp_name": " Services CES Global Expectations",
+      "msfp_satisfactionmetricid": "95d97c54-f87c-4a9c-9660-a70dc89296b1"
+    },
+    {
+      "@odata.etag": "W/\"286005176\"",
+      "msfp_name": " Services CES Listening provided by Consultants",
+      "msfp_satisfactionmetricid": "1a4756c9-1a84-436b-93b6-b38359e21403"
+    },
+    {
+      "@odata.etag": "W/\"286004374\"",
+      "msfp_name": "Customer perception CES Working with Inetum",
+      "msfp_satisfactionmetricid": "545e68cd-8ab2-45d8-a1c0-ccf7421797b4"
+    },
+    {
+      "@odata.etag": "W/\"286004273\"",
+      "msfp_name": "NPS Recommendations",
+      "msfp_satisfactionmetricid": "e006d282-a170-4c5e-92f3-f7ddb5d96d06"
+    }
+  ]
+}
