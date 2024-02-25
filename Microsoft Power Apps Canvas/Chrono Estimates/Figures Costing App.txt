@@ -1,0 +1,33 @@
+
+ForAll(
+    Filter(
+        vg_FCI.AllItems,
+        tg_TechnicalChanges.Value = true
+    ),
+    Patch(
+        'Figure Costing items',
+        ThisRecord,
+        {
+            Title: txt_FigureCostingItemName.Text,
+            Quantity: Value(txt_FigureCostingItemQuantity.Text),
+            'Item MD Cost': Value(txt_FCManDay.Text),
+            Measurement: dd_Measurement.SelectedText.Value,
+            Complexity: Dd_FigureCostingComplexity.SelectedText.Value
+        }
+    )
+)
+
+
+If(
+    ShowFilter,
+    Filter(
+        Projets,
+        txt_ProjectNameFilter.Text in ThisRecord.Title
+    ),
+    Projets
+)
+
+
+ThisItem.Quantity <> txt_FigureCostingItemQuantity.Text || ThisItem.Title <> txt_FigureCostingItemName.Text || ThisItem.Complexity.Value <> Dd_FigureCostingComplexity.SelectedText.Value
+
+ForAll(Filter(vg_FigureCostingItem.AllItems, tg_TechnicalChanges = true), Patch('Figure Costing items', ThisRecord, {Title: txt_FigureCostingItemName.Text, Quantity: Value(txt_FigureCostingItemQuantity.Text), Measurement: Dd_FigureCostingComplexity.SelectedText.Value, Complexity: Dd_FigureCostingComplexity.SelectedText.Value, 'Item MD Cost': Value(txt_FigureCostingManDayCost.Text}))
