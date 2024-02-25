@@ -4,7 +4,7 @@ Unlock the potential of Microsoft Power Platform Solutions with ease. Quickly do
 
 ## Applications
 
-Explore our diverse range of Microsoft Power Apps Canvas Applications:
+Explore my diverse range of Microsoft Power Apps Canvas Applications:
 
 - **Chrono Estimates.msapp:** Track and manage project timelines and estimates efficiently.
 - **Customer Voice Helper App.msapp:** Streamline customer feedback collection and analysis with this intuitive app.
