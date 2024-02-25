@@ -1,6 +1,6 @@
 # Guide
 
-Unlock the potential of Microsoft Power Platform Solutions with ease. Quickly download the required Microsoft Power Apps Canvas Application by following just two simple steps.
+Unlock the potential of Microsoft Power Platform Solutions with ease. Quickly download the required Microsoft Power Apps Canvas Application by following just two simple steps. Scroll to the bottom if you need to select an app and learn how to implement it.
 
 ## Applications
 
