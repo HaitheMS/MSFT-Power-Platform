@@ -4,6 +4,12 @@ Unlock the potential of Microsoft Power Platform Solutions with ease. Quickly do
 
 ## Applications
 
+### Chrono Estimates.msapp
+
+- **Author:** H BA.
+- **Description:** This is a Description
+- **Created On:** 24/03/2023
+
 Explore my diverse range of Microsoft Power Apps Canvas Applications:
 
 - **Chrono Estimates.msapp:** Track and manage project timelines and estimates efficiently.
