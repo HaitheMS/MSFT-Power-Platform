@@ -11,9 +11,9 @@ Explore a diverse range of Microsoft Power Apps Canvas Applications designed to 
 - **Chrono Estimates**: Track and manage project timelines and estimates efficiently.
 - **Customer Voice Helper App**: Streamline customer feedback collection and analysis.
 - **Connect_To_Excel_App**: Seamlessly integrate Power Apps with Excel for enhanced data management.
-- *And many more...*
+- _And many more..._
 
-👉 [View Canvas Apps](./Microsoft_Power_Apps_Canvas/README.md) for detailed descriptions and demos.
+👉 [View Canvas Apps](https://github.com/HaitheMS/MSFT-Power-Platform/tree/main/Microsoft%20Power%20Apps%20Canvas) for detailed descriptions and demos.
 
 ### MSFT D365 Packages to Get Things Done
 
@@ -24,20 +24,20 @@ Quickly download the required packages to accelerate your Microsoft Dynamics 365
 - **Dataverse REST Builder**: A tool for building custom REST queries for Dataverse.
 - **AME UI Icons**: A Nice solution to add custom UI Web Resources in your Dynamics 365 forms to enhance User Interface with Nice Headlines and Pretty Icons.
 
-👉 [View D365 Packages](./MSFT_Dynamics_365_Plugins/README.md) for instructions on downloading and installation.
+👉 [View D365 Packages](https://github.com/HaitheMS/MSFT-Power-Platform/tree/main/MSFT%20D365%20Packages%20to%20Get%20Things%20Done) for instructions on downloading and installation.
 
 ### MSFT Dynamics 365 Customer Voice Integration
 
 Harness the power of Dynamics 365 Customer Voice with comprehensive module integration:
 
-- *Description is coming soon 👏*
+- _Description is coming soon 👏_
 
-👉 [View Customer Voice Integration](./MSFT_Dynamics_365_Customer_Voice_Integration/README.md) for detailed configuration and usage instructions.
+👉 [View Customer Voice Integration](https://github.com/HaitheMS/MSFT-Power-Platform/tree/main/MSFT%20Dynamics%20365%20Customer%20Voice%20Integration) for detailed configuration and usage instructions.
 
 ### MSFT Dynamics 365 Plugins
 
 Find specialized plugins to enhance your Dynamics 365 environment:
 
-- **C#_Plugin_CustomRestrictorDuplicates**:  This plugin intercepts the creation of new records for the "gfitn_accountidentificationcode" entity and checks for existing records with matching attribute values. If a duplicate is detected, the plugin generates an in-app notification for the user and halts the creation process to maintain data integrity.
+- **C#\_Plugin_CustomRestrictorDuplicates**: This plugin intercepts the creation of new records for the "gfitn_accountidentificationcode" entity and checks for existing records with matching attribute values. If a duplicate is detected, the plugin generates an in-app notification for the user and halts the creation process to maintain data integrity.
 
-👉 Explore individual plugin directories for specific readme content.
+👉 [Explore my plugins](https://github.com/HaitheMS/MSFT-Power-Platform/tree/main/MSFT%20Dynamics%20365%20Plugins)
