@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "g4pIJq6mqIiYuG1j2O2TXXAmVe4xaoUHpYq5LbKDHSkIMNVPS3JlKnJOAsQJEdl8rWU3hfbQGhDUJCr6lEVDUw==",
+  "success": true,
+  "projectFilePath": "V:\\Onedrive\\ithemlbc@gmail.com\\OneDrive\\Bureau\\GithubRepositories\\VSProjects\\MyD365PLugin\\MyD365PLugin\\MyD365PLugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Server\\.nuget\\packages\\microsoft.crmsdk.coreassemblies\\9.0.2.51\\microsoft.crmsdk.coreassemblies.9.0.2.51.nupkg.sha512",
+    "C:\\Users\\Server\\.nuget\\packages\\microsoft.crmsdk.xrmtooling.pluginregistrationtool\\9.1.0.187\\microsoft.crmsdk.xrmtooling.pluginregistrationtool.9.1.0.187.nupkg.sha512",
+    "C:\\Users\\Server\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Server\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Server\\.nuget\\packages\\system.text.json\\6.0.7\\system.text.json.6.0.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.CoreAssemblies 9.0.2.51' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.CoreAssemblies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

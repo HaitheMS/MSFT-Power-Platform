@@ -1,0 +1,440 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.CrmSdk.CoreAssemblies/9.0.2.51": {
+        "type": "package",
+        "dependencies": {
+          "System.Text.Json": "6.0.7"
+        },
+        "compile": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        },
+        "runtime": {
+          "lib/net462/Microsoft.Crm.Sdk.Proxy.dll": {},
+          "lib/net462/Microsoft.Xrm.Sdk.dll": {}
+        }
+      },
+      "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool/9.1.0.187": {
+        "type": "package"
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Text.Encodings.Web/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Encodings.Web.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll": {
+            "assetType": "runtime",
+            "rid": "browser"
+          }
+        }
+      },
+      "System.Text.Json/6.0.7": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0",
+          "System.Text.Encodings.Web": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/System.Text.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Text.Json.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/System.Text.Json.targets": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.CrmSdk.CoreAssemblies/9.0.2.51": {
+      "sha512": "CuLXnbPoPoFQNAaP6ai2iDKjS0lDJxJ+UoYFYsG0MsHOE3OOeDHJex2M+cL40JcxE4g+bWrpd9VxumEbzig1Gw==",
+      "type": "package",
+      "path": "microsoft.crmsdk.coreassemblies/9.0.2.51",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Dataverse.128x128.png",
+        "lib/LicenseTerms.docx",
+        "lib/Other Redistributable.txt",
+        "lib/Third Party Notices for Dynamics 365 SDK.docx",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.dll",
+        "lib/net462/Microsoft.Crm.Sdk.Proxy.xml",
+        "lib/net462/Microsoft.Xrm.Sdk.dll",
+        "lib/net462/Microsoft.Xrm.Sdk.xml",
+        "microsoft.crmsdk.coreassemblies.9.0.2.51.nupkg.sha512",
+        "microsoft.crmsdk.coreassemblies.nuspec"
+      ]
+    },
+    "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool/9.1.0.187": {
+      "sha512": "TFoCpvdtW7ouwMfEyN6RwenGc0u4ibAb1RgGXlzF0W+zsPv5+O8SENM8DS7bwoXJEL197RgJTZoScDVbZSNm8w==",
+      "type": "package",
+      "path": "microsoft.crmsdk.xrmtooling.pluginregistrationtool/9.1.0.187",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/Dataverse.128x128.png",
+        "microsoft.crmsdk.xrmtooling.pluginregistrationtool.9.1.0.187.nupkg.sha512",
+        "microsoft.crmsdk.xrmtooling.pluginregistrationtool.nuspec",
+        "tools/AssemblyRegistration.dll",
+        "tools/CrmLibraries.dll",
+        "tools/CustomApiRegistration.dll",
+        "tools/DebugPlugin.dll",
+        "tools/Google.Protobuf.dll",
+        "tools/ImageRegistration.dll",
+        "tools/Microsoft.ApplicationInsights.dll",
+        "tools/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/Microsoft.Crm.Sdk.Proxy.dll",
+        "tools/Microsoft.ExceptionMessageBox.dll",
+        "tools/Microsoft.Expression.Interactions.dll",
+        "tools/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/Microsoft.Extensions.Configuration.dll",
+        "tools/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/Microsoft.Extensions.Options.dll",
+        "tools/Microsoft.Extensions.Primitives.dll",
+        "tools/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "tools/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "tools/Microsoft.Rest.ClientRuntime.dll",
+        "tools/Microsoft.ServiceBus.dll",
+        "tools/Microsoft.Xrm.Sdk.Deployment.dll",
+        "tools/Microsoft.Xrm.Sdk.Workflow.dll",
+        "tools/Microsoft.Xrm.Sdk.dll",
+        "tools/Microsoft.Xrm.Tooling.Connector.dll",
+        "tools/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "tools/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "tools/Newtonsoft.Json.dll",
+        "tools/NuGet.Common.dll",
+        "tools/NuGet.Configuration.dll",
+        "tools/NuGet.Frameworks.dll",
+        "tools/NuGet.Packaging.dll",
+        "tools/NuGet.Versioning.dll",
+        "tools/Other Redistributable.txt",
+        "tools/PackageRegistration.dll",
+        "tools/PluginCommonControls.dll",
+        "tools/PluginProfiler.Debugger.exe",
+        "tools/PluginProfiler.Debugger.exe.config",
+        "tools/PluginProfiler.Library.dll",
+        "tools/PluginProfiler.Plugins.dll",
+        "tools/PluginProfiler.Solution.zip",
+        "tools/PluginRegistration.exe",
+        "tools/PluginRegistration.exe.config",
+        "tools/ServiceEndpointRegistration.dll",
+        "tools/StepRegistration.dll",
+        "tools/System.Buffers.dll",
+        "tools/System.Diagnostics.DiagnosticSource.dll",
+        "tools/System.Memory.dll",
+        "tools/System.Numerics.Vectors.dll",
+        "tools/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/System.Text.Json.dll",
+        "tools/System.Threading.Tasks.Extensions.dll",
+        "tools/System.ValueTuple.dll",
+        "tools/System.Windows.Controls.Input.Toolkit.dll",
+        "tools/System.Windows.Interactivity.dll",
+        "tools/Third Party Notices for Dynamics 365 SDK.docx",
+        "tools/VirtualEntityRegistration.dll",
+        "tools/WPFToolkit.dll",
+        "tools/WebHookRegistration.dll",
+        "tools/appsettings.json",
+        "tools/net48/AssemblyRegistration.dll",
+        "tools/net48/CrmLibraries.dll",
+        "tools/net48/CustomApiRegistration.dll",
+        "tools/net48/DebugPlugin.dll",
+        "tools/net48/Google.Protobuf.dll",
+        "tools/net48/ImageRegistration.dll",
+        "tools/net48/Microsoft.ApplicationInsights.dll",
+        "tools/net48/Microsoft.Bcl.AsyncInterfaces.dll",
+        "tools/net48/Microsoft.Crm.Sdk.Proxy.dll",
+        "tools/net48/Microsoft.ExceptionMessageBox.dll",
+        "tools/net48/Microsoft.Expression.Interactions.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.FileExtensions.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.Json.dll",
+        "tools/net48/Microsoft.Extensions.Configuration.dll",
+        "tools/net48/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/net48/Microsoft.Extensions.FileProviders.Abstractions.dll",
+        "tools/net48/Microsoft.Extensions.FileProviders.Physical.dll",
+        "tools/net48/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "tools/net48/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/net48/Microsoft.Extensions.Options.dll",
+        "tools/net48/Microsoft.Extensions.Primitives.dll",
+        "tools/net48/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "tools/net48/Microsoft.PowerPlatform.Tooling.BatchedTelemetry.dll",
+        "tools/net48/Microsoft.Rest.ClientRuntime.dll",
+        "tools/net48/Microsoft.ServiceBus.dll",
+        "tools/net48/Microsoft.Xrm.Sdk.Deployment.dll",
+        "tools/net48/Microsoft.Xrm.Sdk.Workflow.dll",
+        "tools/net48/Microsoft.Xrm.Sdk.dll",
+        "tools/net48/Microsoft.Xrm.Tooling.Connector.dll",
+        "tools/net48/Microsoft.Xrm.Tooling.CrmConnectControl.dll",
+        "tools/net48/Microsoft.Xrm.Tooling.Ui.Styles.dll",
+        "tools/net48/Newtonsoft.Json.dll",
+        "tools/net48/NuGet.Common.dll",
+        "tools/net48/NuGet.Configuration.dll",
+        "tools/net48/NuGet.Frameworks.dll",
+        "tools/net48/NuGet.Packaging.dll",
+        "tools/net48/NuGet.Versioning.dll",
+        "tools/net48/PackageRegistration.dll",
+        "tools/net48/PluginCommonControls.dll",
+        "tools/net48/PluginProfiler.Debugger.exe",
+        "tools/net48/PluginProfiler.Debugger.exe.config",
+        "tools/net48/PluginProfiler.Library.dll",
+        "tools/net48/PluginProfiler.Plugins.dll",
+        "tools/net48/PluginProfiler.Solution.zip",
+        "tools/net48/PluginRegistration.exe",
+        "tools/net48/PluginRegistration.exe.config",
+        "tools/net48/ServiceEndpointRegistration.dll",
+        "tools/net48/StepRegistration.dll",
+        "tools/net48/System.Buffers.dll",
+        "tools/net48/System.Diagnostics.DiagnosticSource.dll",
+        "tools/net48/System.Memory.dll",
+        "tools/net48/System.Numerics.Vectors.dll",
+        "tools/net48/System.Runtime.CompilerServices.Unsafe.dll",
+        "tools/net48/System.Text.Json.dll",
+        "tools/net48/System.Threading.Tasks.Extensions.dll",
+        "tools/net48/System.ValueTuple.dll",
+        "tools/net48/System.Windows.Controls.Input.Toolkit.dll",
+        "tools/net48/System.Windows.Interactivity.dll",
+        "tools/net48/VirtualEntityRegistration.dll",
+        "tools/net48/WPFToolkit.dll",
+        "tools/net48/WebHookRegistration.dll",
+        "tools/net48/appsettings.json",
+        "tools/net48/pacTelemetryUpload.exe",
+        "tools/net48/pacTelemetryUpload.exe.config",
+        "tools/pacTelemetryUpload.exe",
+        "tools/pacTelemetryUpload.exe.config"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Encodings.Web/6.0.0": {
+      "sha512": "Vg8eB5Tawm1IFqj4TVK1czJX89rhFxJo9ELqc/Eiq0eXy13RK00eubyU6TJE6y+GQXjyV5gSfiewDUZjQgSE0w==",
+      "type": "package",
+      "path": "system.text.encodings.web/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Text.Encodings.Web.dll",
+        "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/net6.0/System.Text.Encodings.Web.dll",
+        "lib/net6.0/System.Text.Encodings.Web.xml",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.1/System.Text.Encodings.Web.xml",
+        "lib/netstandard2.0/System.Text.Encodings.Web.dll",
+        "lib/netstandard2.0/System.Text.Encodings.Web.xml",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll",
+        "runtimes/browser/lib/net6.0/System.Text.Encodings.Web.xml",
+        "system.text.encodings.web.6.0.0.nupkg.sha512",
+        "system.text.encodings.web.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Text.Json/6.0.7": {
+      "sha512": "/Tf/9XjprpHolbcDOrxsKVYy/mUG/FS7aGd9YUgBVEiHeQH4kAE0T1sMbde7q6B5xcrNUsJ5iW7D1RvHudQNqA==",
+      "type": "package",
+      "path": "system.text.json/6.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "analyzers/dotnet/roslyn3.11/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn3.11/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn3.11/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/System.Text.Json.SourceGeneration.dll",
+        "analyzers/dotnet/roslyn4.0/cs/cs/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/de/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/es/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/fr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/it/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ja/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ko/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pl/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/pt-BR/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/ru/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/tr/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hans/System.Text.Json.SourceGeneration.resources.dll",
+        "analyzers/dotnet/roslyn4.0/cs/zh-Hant/System.Text.Json.SourceGeneration.resources.dll",
+        "buildTransitive/netcoreapp2.0/System.Text.Json.targets",
+        "buildTransitive/netcoreapp3.1/System.Text.Json.targets",
+        "buildTransitive/netstandard2.0/System.Text.Json.targets",
+        "lib/net461/System.Text.Json.dll",
+        "lib/net461/System.Text.Json.xml",
+        "lib/net6.0/System.Text.Json.dll",
+        "lib/net6.0/System.Text.Json.xml",
+        "lib/netcoreapp3.1/System.Text.Json.dll",
+        "lib/netcoreapp3.1/System.Text.Json.xml",
+        "lib/netstandard2.0/System.Text.Json.dll",
+        "lib/netstandard2.0/System.Text.Json.xml",
+        "system.text.json.6.0.7.nupkg.sha512",
+        "system.text.json.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.CrmSdk.CoreAssemblies >= 9.0.2.51",
+      "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool >= 9.1.0.187"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Server\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "V:\\Onedrive\\ithemlbc@gmail.com\\OneDrive\\Bureau\\GithubRepositories\\VSProjects\\MyD365PLugin\\MyD365PLugin\\MyD365PLugin.csproj",
+      "projectName": "MyD365PLugin",
+      "projectPath": "V:\\Onedrive\\ithemlbc@gmail.com\\OneDrive\\Bureau\\GithubRepositories\\VSProjects\\MyD365PLugin\\MyD365PLugin\\MyD365PLugin.csproj",
+      "packagesPath": "C:\\Users\\Server\\.nuget\\packages\\",
+      "outputPath": "V:\\Onedrive\\ithemlbc@gmail.com\\OneDrive\\Bureau\\GithubRepositories\\VSProjects\\MyD365PLugin\\MyD365PLugin\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Server\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.CrmSdk.CoreAssemblies": {
+            "target": "Package",
+            "version": "[9.0.2.51, )"
+          },
+          "Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool": {
+            "target": "Package",
+            "version": "[9.1.0.187, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.CrmSdk.CoreAssemblies 9.0.2.51' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.CrmSdk.CoreAssemblies",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
