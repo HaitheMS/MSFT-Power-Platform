@@ -41,3 +41,23 @@ Find specialized plugins to enhance your Dynamics 365 environment:
 - **C#\_Plugin_CustomRestrictorDuplicates**: This plugin intercepts the creation of new records for the "gfitn_accountidentificationcode" entity and checks for existing records with matching attribute values. If a duplicate is detected, the plugin generates an in-app notification for the user and halts the creation process to maintain data integrity.
 
 👉 [Explore my plugins](https://github.com/HaitheMS/MSFT-Power-Platform/tree/main/MSFT%20Dynamics%20365%20Plugins)
+
+👇 **_Please review the following Frequently Asked Questions (FAQ)_** 👇
+
+## FAQ
+
+### Q1: Need help with a project?
+
+**A:** Post your detailed query using my dedicated 👉 [IT Technical Support Form](https://benayoub.com/it-support/)
+
+### Q2: Accepting pull requests?
+
+**A:** No, to maintain consistency with my portfolio content. However, feel free to report issues.
+
+### Q3: Can I contribute to the repository with new features or bug fixes?
+
+**A:** While I appreciate your interest in contributing, I currently do not accept external contributions to maintain consistency with my portfolio content. However, you're welcome to suggest improvements or report issues by opening an issue on GitHub.
+
+### Q4: How can I stay updated on future developments or announcements related to this repository?
+
+**A:** To stay informed about new updates, announcements, or additional resources related to this repository, consider subscribing to my [newsletter](https://benayoub.com/github-repos-newsletter-subscriptions) or following me on social media platforms. I regularly share valuable insights, tips, and tutorials to keep you engaged and informed.
