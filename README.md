@@ -42,9 +42,9 @@ Find specialized plugins to enhance your Dynamics 365 environment:
 
 👉 [Explore my plugins](https://github.com/HaitheMS/MSFT-Power-Platform/tree/main/MSFT%20Dynamics%20365%20Plugins)
 
-👇 **_Please review the following Frequently Asked Questions (FAQ)_** 👇
-
 ## FAQ
+
+👇 **_Please review the following Frequently Asked Questions (FAQ)_** 👇
 
 ### Q1: Need help with a project?
 
