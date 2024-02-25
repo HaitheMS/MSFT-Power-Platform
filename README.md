@@ -4,6 +4,7 @@ This repository is built to make it in the easiest way to be familiar with Micro
 In this repository you will find:
 
 - Apps
+- Plugins
 - Packages
 - Templates
 
